@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oferta Felipe</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: Arial, sans-serif; }
+
+    .badge {
+      background: red;
+      color: white;
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .bonus {
+      background: #fff8e1;
+      padding: 12px;
+      border-radius: 10px;
+      margin-top: 10px;
+      font-weight: 500;
+    }
+
+    .linha {
+      height: 5px;
+      background: linear-gradient(to right, black, gold, black);
+      margin-top: 15px;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+  <div class="bg-white shadow-2xl rounded-2xl p-6 max-w-md w-full border-4 border-yellow-400">
+
+    <h2 class="text-center text-lg font-bold mb-2">@felipe</h2>
+
+    <div class="text-center mb-2">
+      <span class="badge">-93%</span>
+    </div>
+
+    <p class="text-center text-red-500 line-through">R$ 256,00</p>
+    <p class="text-center text-4xl font-bold text-green-600">R$ 17,00</p>
+    <p class="text-center text-gray-500 mb-4">Você economiza R$ 239,00</p>
+
+    <button class="bg-green-500 text-white w-full py-3 rounded-xl font-bold hover:bg-green-600 transition">
+      COMPRAR AGORA
+    </button>
+
+    <div class="linha"></div>
+
+    <div class="mt-6">
+      <h3 class="font-bold mb-2 text-center">Tudo que Felipe preparou:</h3>
+      <ul class="space-y-2">
+        <li class="bg-gray-100 p-3 rounded-lg">✔ 35 Livros de Colorir</li>
+        <li class="bg-gray-100 p-3 rounded-lg">✔ Desafio Bíblico 7 Dias</li>
+        <li class="bg-gray-100 p-3 rounded-lg">✔ Cartões de Memorização</li>
+      </ul>
+    </div>
+
+    <div class="mt-6">
+      <h3 class="font-bold mb-2 text-center">Bônus Exclusivos:</h3>
+
+      <div class="bonus">🎁 Felipe libera 2 novos livros todo mês</div>
+      <div class="bonus">🎁 Vídeos de histórias bíblicas</div>
+      <div class="bonus">🎁 15 versículos ilustrados</div>
+
+    </div>
+
+    <button class="mt-6 bg-green-500 text-white w-full py-3 rounded-xl font-bold hover:bg-green-600 transition">
+      GARANTIR MINHA VAGA
+    </button>
+
+  </div>
+
+</body>
+</html>
